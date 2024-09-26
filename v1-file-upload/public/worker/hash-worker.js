@@ -1,4 +1,4 @@
-import SparkMD5 from './spark-md5.min.js'
+importScripts('spark-md5.min.js')
 // 创建文件切片
 function createFileChunk(file, chunkSize) {
   return new Promise((resolve, reject) => {
